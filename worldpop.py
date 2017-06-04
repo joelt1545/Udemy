@@ -1,7 +1,7 @@
 import folium
 import pandas as pd
 
-df=pd.read-csv('/home/joel1/Udemy/Volcanoes-USA.txt')
+df=pd.read_csv('/home/joel1/Udemy/Volcanoes-USA.txt')
 avg_lat=df['LAT'].mean()
 avg_lon=df['LON'].mean()
 
